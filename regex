@@ -1,4 +1,4 @@
-(password|key|secret|token|pass|cred|credential|contraseña)(=|:).+
+(password|key|secret|token|pass|cred|credential|contraseña)(=|:)[^{].*[^}]
 AIza[0-9A-Za-z]{35}
 [0-9a-zA-Z]{24}
 4/[0-9A-Za-z]+
