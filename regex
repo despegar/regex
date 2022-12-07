@@ -1,4 +1,4 @@
-(password|key|secret|token|pass|cred|credential|contraseña)(=|:)[^{].*[^}]
+(password|key|secret|token|pass|cred|credential|contraseña)(=|:)"?[a-zA-Z0-9].*"?
 AIza[0-9A-Za-z-_]{35}
 [0-9]+-[0-9A-Za-z_]{32}\\.apps\\.googleusercontent\\.com
 ya29.[0-9A-Za-z-_]+
