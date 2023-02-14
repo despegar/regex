@@ -1,0 +1,82 @@
+[
+   {
+      "nombre":"nombre1",
+      "regex":"password|key|secret|token|pass|cred|credential|contraseña)(=|:)\"?[a-zA-Z0-9].*\"?"
+   },
+   {
+      "nombre":"nombre2",
+      "regex":"AIza[0-9A-Za-z-_]{35}"
+   },
+   {
+      "nombre":"nombre3",
+      "regex":"[0-9]+-[0-9A-Za-z_]{32}\\.apps\\.googleusercontent\\.com"
+   },
+   {
+      "nombre":"nombre4",
+      "regex":"ya29.[0-9A-Za-z-_]+"
+   },
+   {
+      "nombre":"nombre5",
+      "regex":"^ghp_[A-Za-z0-9]{36}$"
+   },
+   {
+      "nombre":"nombre6",
+      "regex":"-----BEGIN RSA PRIVATE KEY-----"
+   },
+   {
+      "nombre":"nombre7",
+      "regex":"-----BEGIN DSA PRIVATE KEY-----"
+   },
+   {
+      "nombre":"nombre8",
+      "regex":"-----BEGIN EC PRIVATE KEY-----"
+   },
+   {
+      "nombre":"nombre9",
+      "regex":"-----BEGIN PGP PRIVATE KEY BLOCK-----"
+   },
+   {
+      "nombre":"nombre10",
+      "regex":"xox[p|b|o|a]-[0-9]{12}-[0-9]{12}-[0-9]{12}-[a-z0-9]{32}"
+   },
+   {
+      "nombre":"nombre11",
+      "regex":"xoxb-[0-9]{11}-[0-9]{11}-[0-9a-zA-Z]{24}"
+   },
+   {
+      "nombre":"nombre12",
+      "regex":"xoxp-[0-9]{11}-[0-9]{11}-[0-9a-zA-Z]{24}"
+   },
+   {
+      "nombre":"nombre13",
+      "regex":"xoxe.xoxp-1-[0-9a-zA-Z]{166}"
+   },
+   {
+      "nombre":"nombre14",
+      "regex":"xoxe-1-[0-9a-zA-Z]{147}"
+   },
+   {
+      "nombre":"nombre15",
+      "regex":"AKIA[0-9A-Z]{16}"
+   },
+   {
+      "nombre":"amzn.mws",
+      "regex":"amzn\\.mws\\.[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"
+   },
+   {
+      "nombre":"UUID",
+      "regex":"[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}"
+   },
+   {
+      "nombre":"Nombre de usuario seguido de guiones",
+      "regex":"[A-Za-z0-9_]{21}--[A-Za-z0-9_]{8}"
+   },
+   {
+      "nombre":"EAACEdEose0cBA",
+      "regex":"EAACEdEose0cBA[0-9A-Za-z]+"
+   },
+   {
+      "nombre":"Facebook API key",
+      "regex":"[f|F][a|A][c|C][e|E][b|B][o|O][o|O][k|K].*['|\"][0-9a-f]{32}['|\"]"
+   }
+]
