@@ -1,58 +1,138 @@
 [
    {
-      "nombre":"AWS",
-      "regex":"AIza[0-9A-Za-z-_]{35}"
+      "nombre":"Cloudinary",
+      "regex":"cloudinary://.*"
    },
    {
-      "nombre":"GCP",
-      "regex":"[0-9]+-[0-9A-Za-z_]{32}\\.apps\\.googleusercontent\\.com"
+      "nombre":"Firebase URL",
+      "regex":".*firebaseio\\.com"
    },
    {
-      "nombre":"YA29",
-      "regex":"ya29.[0-9A-Za-z-_]+"
+      "nombre":"Slack Token",
+      "regex":"(xox[p|b|o|a]-[0-9]{12}-[0-9]{12}-[0-9]{12}-[a-z0-9]{32})"
    },
    {
-      "nombre":"Github",
-      "regex":"^ghp_[A-Za-z0-9]{36}$"
-   },
-   {
-      "nombre":"xox",
-      "regex":"xox[p|b|o|a]-[0-9]{12}-[0-9]{12}-[0-9]{12}-[a-z0-9]{32}"
-   },
-   {
-      "nombre":"xoxb",
-      "regex":"xoxb-[0-9]{11}-[0-9]{11}-[0-9a-zA-Z]{24}"
-   },
-   {
-      "nombre":"xoxp",
-      "regex":"xoxp-[0-9]{11}-[0-9]{11}-[0-9a-zA-Z]{24}"
-   },
-   {
-      "nombre":"xoxe",
-      "regex":"xoxe.xoxp-1-[0-9a-zA-Z]{166}"
-   },
-   {
-      "nombre":"xoxe-1",
-      "regex":"xoxe-1-[0-9a-zA-Z]{147}"
-   },
-   {
-      "nombre":"AKIA",
+      "nombre":"Amazon AWS Access Key ID",
       "regex":"AKIA[0-9A-Z]{16}"
    },
    {
-      "nombre":"amzn.mws",
+      "nombre":"Amazon MWS Auth Token",
       "regex":"amzn\\.mws\\.[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"
    },
    {
-      "nombre":"Nombre de usuario",
-      "regex":"[A-Za-z0-9_]{21}--[A-Za-z0-9_]{8}"
+      "nombre":"AWS API Key",
+      "regex":"AKIA[0-9A-Z]{16}"
    },
    {
-      "nombre":"EAACEdEose0cBA",
+      "nombre":"Facebook Access Token",
       "regex":"EAACEdEose0cBA[0-9A-Za-z]+"
    },
    {
-      "nombre":"Facebook API key",
+      "nombre":"Facebook OAuth",
       "regex":"[f|F][a|A][c|C][e|E][b|B][o|O][o|O][k|K].*['|\"][0-9a-f]{32}['|\"]"
+   },
+   {
+      "nombre":"GitHub",
+      "regex":"[g|G][i|I][t|T][h|H][u|U][b|B].*['|\"][0-9a-zA-Z]{35,40}['|\"]"
+   },
+   {
+      "nombre":"Generic API Key",
+      "regex":"[a|A][p|P][i|I][_]?[k|K][e|E][y|Y].*['|\"][0-9a-zA-Z]{32,45}['|\"]"
+   },
+   {
+      "nombre":"Generic Secret",
+      "regex":"[s|S][e|E][c|C][r|R][e|E][t|T].*['|\"][0-9a-zA-Z]{32,45}['|\"]"
+   },
+   {
+      "nombre":"Google API Key",
+      "regex":"AIza[0-9A-Za-z\\-_]{35}"
+   },
+   {
+      "nombre":"Google Cloud Platform API Key",
+      "regex":"AIza[0-9A-Za-z\\-_]{35}"
+   },
+   {
+      "nombre":"Google Cloud Platform OAuth",
+      "regex":"[0-9]+-[0-9A-Za-z_]{32}\\.apps\\.googleusercontent\\.com"
+   },
+   {
+      "nombre":"Google Drive API Key",
+      "regex":"AIza[0-9A-Za-z\\-_]{35}"
+   },
+   {
+      "nombre":"Google Drive OAuth",
+      "regex":"[0-9]+-[0-9A-Za-z_]{32}\\.apps\\.googleusercontent\\.com"
+   },
+   {
+      "nombre":"Google (GCP) Service-account",
+      "regex":"\"type\": \"service_account\""
+   },
+   {
+      "Nombre":"Google Gmail API Key",
+      "Regex":"AIza[0-9A-Za-z\\-_]{35}"
+   },
+   {
+      "Nombre":"Google Gmail OAuth",
+      "Regex":"[0-9]+-[0-9A-Za-z_]{32}\\.apps\\.googleusercontent\\.com"
+   },
+   {
+      "Nombre":"Google OAuth Access Token",
+      "Regex":"ya29\\.[0-9A-Za-z\\-_]+"
+   },
+   {
+      "Nombre":"Google YouTube API Key",
+      "Regex":"AIza[0-9A-Za-z\\-_]{35}"
+   },
+   {
+      "Nombre":"Google YouTube OAuth",
+      "Regex":"[0-9]+-[0-9A-Za-z_]{32}\\.apps\\.googleusercontent\\.com"
+   },
+   {
+      "Nombre":"Heroku API Key",
+      "Regex":"[h|H][e|E][r|R][o|O][k|K][u|U].*[0-9A-F]{8}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{12}"
+   },
+   {
+      "Nombre":"MailChimp API Key",
+      "Regex":"[0-9a-f]{32}-us[0-9]{1,2}"
+   },
+   {
+      "Nombre":"Mailgun API Key",
+      "Regex":"key-[0-9a-zA-Z]{32}"
+   },
+   {
+      "Nombre":"Password in URL",
+      "Regex":"[a-zA-Z]{3,10}://[^/\\s:@]{3,20}:[^/\\s:@]{3,20}@.{1,100}[\"'\\s]"
+   },
+   {
+      "Nombre":"PayPal Braintree Access Token",
+      "Regex":"access_token\\$production\\$[0-9a-z]{16}\\$[0-9a-f]{32}"
+   },
+   {
+      "Nombre":"Picatic API Key",
+      "Regex":"sk_live_[0-9a-z]{32}"
+   },
+   {
+      "Nombre":"Slack Webhook",
+      "Regex":"https://hooks.slack.com/services/T[a-zA-Z0-9_]{8}/B[a-zA-Z0-9_]{8}/[a-zA-Z0-9_]{24}"
+   },
+   {
+      "Nombre":"Stripe API Key",
+      "Regex":"sk_live_[0-9a-zA-Z]{24}"
+   },
+   {
+      "Nombre":"Stripe Restricted API Key",
+      "Regex":"rk_live_[0-9a-zA-Z]{24}"
+   },
+   {
+      "Nombre":"Square Access Token",
+      "Regex":"sq0atp-[0-9A-Za-z\\-_]{22}"
+   },
+   {
+      "Nombre":"Square OAuth Secret",
+      "Regex":"sq0csp-[0-9A-Za-z\\-_]{43}"
+   },
+   {
+      "Nombre":"Twilio API Key",
+      "Regex":"SK[0-9a-fA-F]{32}"
    }
 ]
