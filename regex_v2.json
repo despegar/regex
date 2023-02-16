@@ -48,16 +48,8 @@
       "regex":"AIza[0-9A-Za-z\\-_]{35}"
    },
    {
-      "nombre":"Google Cloud Platform API Key",
-      "regex":"AIza[0-9A-Za-z\\-_]{35}"
-   },
-   {
       "nombre":"Google Cloud Platform OAuth",
       "regex":"[0-9]+-[0-9A-Za-z_]{32}\\.apps\\.googleusercontent\\.com"
-   },
-   {
-      "nombre":"Google Drive API Key",
-      "regex":"AIza[0-9A-Za-z\\-_]{35}"
    },
    {
       "nombre":"Google Drive OAuth",
@@ -68,20 +60,12 @@
       "regex":"\"type\": \"service_account\""
    },
    {
-      "nombre":"Google Gmail API Key",
-      "regex":"AIza[0-9A-Za-z\\-_]{35}"
-   },
-   {
       "nombre":"Google Gmail OAuth",
       "regex":"[0-9]+-[0-9A-Za-z_]{32}\\.apps\\.googleusercontent\\.com"
    },
    {
       "nombre":"Google OAuth Access Token",
       "regex":"ya29\\.[0-9A-Za-z\\-_]+"
-   },
-   {
-      "nombre":"Google YouTube API Key",
-      "regex":"AIza[0-9A-Za-z\\-_]{35}"
    },
    {
       "nombre":"Google YouTube OAuth",
